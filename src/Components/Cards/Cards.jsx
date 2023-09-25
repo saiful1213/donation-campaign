@@ -2,7 +2,7 @@
 
 
 const Cards = ({ card }) => {
-   const { img, category, title, card_color, category_color, text_color, description, price } = card;
+   const { img, category, title, card_color, category_color, text_color} = card;
 
    return (
       // #FF444A25
