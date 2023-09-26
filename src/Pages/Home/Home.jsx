@@ -4,7 +4,6 @@ import Cards from "../../Components/Cards/Cards";
 
 const Home = () => {
    const data = useLoaderData();
-   // console.log(data)
    return (
       <div>
          <Banner></Banner>
