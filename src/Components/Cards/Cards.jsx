@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+// #0052FF33 
 
 import { useNavigate } from "react-router-dom";
 
@@ -11,11 +12,14 @@ const Cards = ({ card }) => {
    }
 
    return (
-      <div className={`bg-[${card_color}] bg-opacity-[15%]`} onClick={()=>handleCardDetails(id)}>
+      <div style={{
+         backgroundColor: card_color         
+      }} onClick={()=>handleCardDetails(id)}>
+
          <img src={img} className="w-full h-52"></img>
          <div className={`p-4 mt-4`}>
-            <button className={`py-1 bg-[${category_color}] bg-opacity-20 px-[10px] rounded text-[${text_color}] font-medium`}>{category}</button>
-            <h1 className={`text-xl font-semibold mt-1 text-[${text_color}]`}>{title}</h1>
+            <button style={{ color: text_color, backgroundColor: category_color}} className={`py-1 px-[10px] rounded font-medium`}>{category}</button>
+            <h1 style={{color: text_color}} className={`text-xl font-semibold mt-1`}>{title}</h1>
          </div>
       </div>
    );
