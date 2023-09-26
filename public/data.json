@@ -1,7 +1,7 @@
 [
    {
       "id": 1,
-      "img": "https://i.ibb.co/N9Ks33B/Health.png",
+      "img": "https://i.ibb.co/zFXFr2s/Rectangle-4284.png",
       "title": "Clean water for children",
       "category": "Health",
       "card_color": "#0052FF",
@@ -10,9 +10,9 @@
       "description": "Support better health for all! Your donation can help us provide advanced health products and medical supplies to those in need. Together, we can make a difference in the lives of individuals striving for better well-being.",
       "price": 25.00
    },
-   {
+   { 
       "id": 2,
-      "img": "https://i.ibb.co/8B0WbjB/Education.png",
+      "img": "https://i.ibb.co/WPw2p5B/Rectangle-4288.png",
       "title": "Good education",
       "category": "Education",
       "card_color": "#FF444A",
@@ -23,7 +23,7 @@
    },
    {
       "id": 3,
-      "img": "https://i.ibb.co/5B1QDRS/Clothing.png",
+      "img": "https://i.ibb.co/W6Vhnh4/Rectangle-4287.png",
       "title": "Used Clothing Drive",
       "category": "Clothing",
       "card_color": "#79C23F",
@@ -37,8 +37,8 @@
       "img": "https://i.ibb.co/pQtfzPc/Food.png",
       "title": "Better Food for Everyone",
       "category": "Food",
-      "card_color": "#FF444A",
-      "category_color": "#FF444A",
+      "card_color": "#F87147",
+      "category_color": "#F87147",
       "text_color": "#F87147",
       "description": "Warmth and dignity for all! Your donation helps us provide clothing and essentials to those facing challenging circumstances. Together, we can ensure that everyone has access to comfortable clothing and a sense of self-worth.",
       "price": 10.00
@@ -48,15 +48,15 @@
       "img": "https://i.ibb.co/pQtfzPc/Food.png",
       "title": "Better Food for Everyone",
       "category": "Food",
-      "card_color": "#FF444A",
-      "category_color": "#FF444A",
+      "card_color": "#F87147",
+      "category_color": "#F87147",
       "text_color": "#F87147",
       "description": "Warmth and dignity for all! Your donation helps us provide clothing and essentials to those facing challenging circumstances. Together, we can ensure that everyone has access to comfortable clothing and a sense of self-worth.",
       "price": 10.00
    },
    {
       "id": 6,
-      "img": "https://i.ibb.co/5B1QDRS/Clothing.png",
+      "img": "https://i.ibb.co/W6Vhnh4/Rectangle-4287.png",
       "title": "Used Clothing Drive",
       "category": "Clothing",
       "card_color": "#79C23F",
@@ -67,7 +67,7 @@
    },
    {
       "id": 7,
-      "img": "https://i.ibb.co/8B0WbjB/Education.png",
+      "img": "https://i.ibb.co/WPw2p5B/Rectangle-4288.png",
       "category": "Education",
       "title": "Good education",
       "card_color": "#FF444A",
@@ -78,7 +78,7 @@
    },
    {
       "id": 8,
-      "img": "https://i.ibb.co/N9Ks33B/Health.png",
+      "img": "https://i.ibb.co/zFXFr2s/Rectangle-4284.png",
       "category": "Health",
       "title": "Clean water for children",
       "card_color": "#0052FF",
@@ -89,7 +89,7 @@
    },
    {
       "id": 9,
-      "img": "https://i.ibb.co/N9Ks33B/Health.png",
+      "img": "https://i.ibb.co/zFXFr2s/Rectangle-4284.png",
       "category": "Health",
       "title": "Clean water for children",
       "card_color": "#0052FF",
@@ -100,7 +100,7 @@
    },
    {
       "id": 10,
-      "img": "https://i.ibb.co/8B0WbjB/Education.png",
+      "img": "https://i.ibb.co/WPw2p5B/Rectangle-4288.png",
       "category": "Education",
       "title": "Good education",
       "card_color": "#FF444A",
@@ -111,7 +111,7 @@
    },
    {
       "id": 11,
-      "img": "https://i.ibb.co/5B1QDRS/Clothing.png",
+      "img": "https://i.ibb.co/W6Vhnh4/Rectangle-4287.png",
       "title": "Used Clothing Drive",
       "category": "Clothing",
       "card_color": "#79C23F",
