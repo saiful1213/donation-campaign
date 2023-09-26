@@ -1,9 +1,9 @@
 
 const Banner = () => {
    return (
-      <div className="mt-12 h-[60vh] flex justify-center items-center bg-bannerImg bg-cover bg-center bg-no-repeat">
-         <div>
-            <h1 className="text-[#0B0B0B] text-5xl font-bold">I Grow By Helping People In Need</h1>
+      <div className="mt-12 p-2 h-[60vh] flex justify-center items-center bg-bannerImg bg-cover bg-center bg-no-repeat">
+         <div className="">
+            <h1 className="text-[#0B0B0B] text-3xl md:text-5xl font-bold">I Grow By Helping People In Need</h1>
             {/* search bar */}
             <div className="flex justify-center items-center">
                <div className="form-control mt-10">

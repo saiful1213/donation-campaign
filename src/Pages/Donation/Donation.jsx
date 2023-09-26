@@ -39,7 +39,7 @@ const Donation = () => {
                   </div>
 
                   {
-                     donation.length > 4 && <button onClick={() => setSeeAll(!seeAll)} className="btn btn-primary block mx-auto mb-8">{seeAll ? 'See less' : 'see more'}</button>
+                     donation.length > 4 && <button onClick={() => setSeeAll(!seeAll)} className="btn bg-[#009444] text-white font-semibold block mx-auto mb-8">{seeAll ? 'See less' : 'see more'}</button>
                   }
 
                </div>
