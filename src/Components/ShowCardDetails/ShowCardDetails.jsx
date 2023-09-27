@@ -5,7 +5,7 @@ const ShowCardDetails = ({ card }) => {
    const { id, img, title, description, price, text_color } = card;
 
    return (
-      <div className="mt-20 flex justify-center items-center h-[60vh]">
+      <div className="mt-20 flex justify-center items-center lg:h-[70vh]">
          <div className="w-full mt-4 p-2 md:w-1/2">
             <div className="relative">
                <img src={img} className="w-full h-72" />

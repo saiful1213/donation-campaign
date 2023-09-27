@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { useLoaderData } from "react-router-dom";
 import Banner from "../../Components/Header/Banner/Banner";
 import Cards from "../../Components/Cards/Cards";
@@ -12,7 +11,7 @@ const Home = () => {
       const fieldValue = value();
 
       if(fieldValue.toLowerCase() === 'health'){
-         const healthCtg = data.filter(obj => obj.category.includes('Health'));
+         const healthCtg = allData.filter(obj => obj.category.includes('Health'));
          setData(healthCtg);
       }
       else if(fieldValue.toLowerCase() === 'education'){
@@ -36,7 +35,7 @@ const Home = () => {
    return (
       <div>
          <Banner handleSearch={handleSearch}></Banner>
-         <div className="p-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-12">
+         <div className="px-8 sm:px-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-12">
             {
                data.map(card => <Cards key={card.id} card={card}></Cards>)
             }
